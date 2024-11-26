@@ -1,24 +1,21 @@
 {
   "name": "vitepress-export-pdf",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@9.1.0",
   "description": "VitePress export PDF",
-  "author": "CondorHero",
+  "author": "Garmin",
   "license": "MIT",
-  "homepage": "https://github.com/condorheroblog/vitepress-export-pdf#readme",
+  "homepage": "https://github.com/garmin-z/vitepress-export-pdf#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/condorheroblog/vitepress-export-pdf.git"
+    "url": "git+https://github.com/garmin-z/vitepress-export-pdf.git"
   },
   "bugs": {
-    "url": "https://github.com/condorheroblog/vitepress-export-pdf/issues"
+    "url": "https://github.com/garmin-z/vitepress-export-pdf/issues"
   },
   "keywords": [
-    "vitepress-plugin-export-pdf",
-    "vitepress-export-pdf",
-    "vitepress-pdf",
-    "vitepress"
+    "vitepress-plugin-export-pdf"
   ],
   "exports": {
     ".": {

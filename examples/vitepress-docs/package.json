@@ -18,5 +18,5 @@
     "vitepress": "^1.1.4",
     "vitepress-export-pdf": "workspace:^"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
