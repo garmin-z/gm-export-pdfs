@@ -44,7 +44,7 @@ export async function serverApp(dir = 'docs', commandOptions: CommandOptions = {
   else
     userConfig.routePatterns = ['/**', '!/404.html']
 
-  const vitepressOutFile = commandOptions.outFile ?? `vitepress-${timeTransformer()}.pdf`
+  const vitepressOutFile = commandOptions.outFile ?? `vitepress-${timeTransformer()}.pdf?export=1`
   const vitepressOutDir = commandOptions.outDir ?? '.'
 
   devDebug('userConfig: %O', userConfig)

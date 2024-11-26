@@ -1,10 +1,10 @@
 {
-  "name": "vitepress-export-pdf",
+  "name": "gm-export-pdf",
   "type": "module",
   "version": "1.0.4",
   "packageManager": "pnpm@9.1.0",
   "description": "VitePress export PDF",
-  "author": "Garmin",
+  "author": "garminzjm",
   "license": "MIT",
   "homepage": "https://github.com/garmin-z/vitepress-export-pdf#readme",
   "repository": {
@@ -46,7 +46,6 @@
   },
   "scripts": {
     "release": "bumpp -r && pnpm -r publish --no-git-checks",
-    "prepublishOnly": "nr build",
     "dev": "esno ./src/commands/press-export-pdf.ts export ./example/vitepress-docs",
     "coverage": "vitest run --coverage",
     "lint:fix": "eslint . --fix",
