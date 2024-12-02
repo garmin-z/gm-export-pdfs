@@ -53,9 +53,6 @@
     "test": "vitest",
     "build": "unbuild"
   },
-  "workspaces": [
-    "examples/*"
-  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -64,8 +61,8 @@
     "vitepress": ">=1.0.0-alpha.35"
   },
   "dependencies": {
-    "@condorhero/vuepress-plugin-export-pdf-core": "^3.0.3",
     "debug": "^4.3.4",
+    "gm-export-pdf-core": "^0.0.6",
     "hash-sum": "^2.0.0"
   },
   "devDependencies": {

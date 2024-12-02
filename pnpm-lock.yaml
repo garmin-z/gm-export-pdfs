@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@condorhero/vuepress-plugin-export-pdf-core':
+      'gm-export-pdf-core':
         specifier: ^3.0.3
         version: 3.0.3(esbuild@0.20.2)(typescript@5.4.5)
       debug:
@@ -315,7 +315,7 @@ packages:
     engines: {node: '>=18.5.0'}
     hasBin: true
 
-  '@condorhero/vuepress-plugin-export-pdf-core@3.0.3':
+  'gm-export-pdf-core@3.0.3':
     resolution: {integrity: sha512-wmifVw9TUOYWgihUBTcgdlzB0TW9uVtsQsRLrHKiW9gxyICiJhMQNmTtfKvtuqEhk/p6ML8qQAQ+K+k9ro3EuA==}
     engines: {node: '>=8.6'}
 
@@ -3899,7 +3899,7 @@ snapshots:
       fast-glob: 3.3.2
       yargs: 17.7.2
 
-  '@condorhero/vuepress-plugin-export-pdf-core@3.0.3(esbuild@0.20.2)(typescript@5.4.5)':
+  'gm-export-pdf-core@3.0.3(esbuild@0.20.2)(typescript@5.4.5)':
     dependencies:
       '@condorhero/merge-pdfs': 0.0.7
       bundle-require: 4.1.0(esbuild@0.20.2)

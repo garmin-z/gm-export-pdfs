@@ -1,4 +1,4 @@
-import type { LaunchOptions, PDFOptions, Page } from '@condorhero/vuepress-plugin-export-pdf-core'
+import type { LaunchOptions, PDFOptions, Page } from 'gm-export-pdf-core'
 
 export type PageType = Omit<Page, 'title'>
 export type UserSorter = (a: PageType, b: PageType) => number
