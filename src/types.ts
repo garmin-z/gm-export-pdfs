@@ -1,4 +1,4 @@
-import type { LaunchOptions, PDFOptions, Page } from 'gm-export-pdf-core'
+import type { PDFOptions, Page } from 'gm-export-pdf-core'
 
 export type PageType = Omit<Page, 'title'>
 export type UserSorter = (a: PageType, b: PageType) => number
@@ -8,7 +8,7 @@ export type UserSorter = (a: PageType, b: PageType) => number
  */
 export interface UserConfig {
   sorter?: UserSorter
-  puppeteerLaunchOptions?: LaunchOptions
+  puppeteerLaunchOptions?: any
   routePatterns?: string[]
   pdfOptions?: PDFOptions
   outFile?: string
