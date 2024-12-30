@@ -1,7 +1,7 @@
 {
   "name": "gm-export-pdfs-vitepress",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "packageManager": "pnpm@9.1.0",
   "description": "VitePress export PDF",
   "author": "garminzjm",
@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "debug": "^4.3.4",
-    "gm-export-pdfs-core": "1.0.3",
+    "gm-export-pdfs-core": "1.0.4",
     "hash-sum": "^2.0.0"
   },
   "devDependencies": {
