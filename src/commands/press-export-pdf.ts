@@ -2,8 +2,8 @@
  * press-export-pdf cli
  */
 
-import type { CAC } from 'gm-export-pdf-core'
-import { runCli, systemInfo } from 'gm-export-pdf-core'
+import type { CAC } from 'gm-export-pdfs-core'
+import { runCli, systemInfo } from 'gm-export-pdfs-core'
 import { serverApp } from '..'
 
 export function registerCommands(program: CAC) {

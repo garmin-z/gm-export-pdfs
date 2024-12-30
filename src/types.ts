@@ -1,4 +1,4 @@
-import type { PDFOptions, Page } from 'gm-export-pdf-core'
+import type { PDFOptions, Page } from 'gm-export-pdfs-core'
 
 export type PageType = Omit<Page, 'title'>
 export type UserSorter = (a: PageType, b: PageType) => number
